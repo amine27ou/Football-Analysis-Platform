@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Data — never commit raw CSVs (too large) or processed outputs
+data/raw/
+data/processed/
+summaries/
+chroma_store/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
